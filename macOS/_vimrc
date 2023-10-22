@@ -5,6 +5,7 @@ map <D-'> :set relativenumber!<CR>
 map <D-;> :set list!<CR>
 map <D-b> :set linebreak!<CR>
 map <D-b><D-b> :set breakindent!<CR>
+map <D-s> :set hlsearch!<CR>
 
 map <D-k> <C-w>k
 map <D-j> <C-w>j
