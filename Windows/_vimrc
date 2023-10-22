@@ -3,6 +3,7 @@ map <M-'> :set relativenumber!<CR>
 map <M-;> :set list!<CR>
 map <M-b> :set linebreak!<CR>
 map <M-b><M-b> :set breakindent!<CR>
+map <M-s> :set hlsearch!<CR>
 
 map <M-k> <C-w>k
 map <M-j> <C-w>j
