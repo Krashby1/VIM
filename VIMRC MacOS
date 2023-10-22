@@ -1,11 +1,17 @@
-let mapleader = "\<SPACE>"
-
 "D = super key; used in replacement of the [M]ETA key on a Mac
 
+map <D-n> :set number!<CR>
 map <D-'> :set relativenumber!<CR>
 map <D-;> :set list!<CR>
+map <D-b> :set linebreak!<CR>
+map <D-b><D-b> :set breakindent!<CR>
 
 map <D-k> <C-w>k
 map <D-j> <C-w>j
 map <D-h> <C-w>h
 map <D-l> <C-w>l
+
+map <C-,> k$
+map <C-.> j$
+map <D-,> gkg$
+map <D-.> gjg$
