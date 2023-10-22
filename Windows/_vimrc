@@ -1,0 +1,15 @@
+map <M-n> :set number!<CR>
+map <M-'> :set relativenumber!<CR>
+map <M-;> :set list!<CR>
+map <M-b> :set linebreak!<CR>
+map <M-b><M-b> :set breakindent!<CR>
+
+map <M-k> <C-w>k
+map <M-j> <C-w>j
+map <M-h> <C-w>h
+map <M-l> <C-w>l
+
+map <C-,> k$
+map <C-.> j$
+map <M-,> gkg$
+map <M-.> gjg$
