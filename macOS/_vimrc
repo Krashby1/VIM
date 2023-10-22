@@ -1,5 +1,12 @@
 "D = super key; used in replacement of the [M]ETA key on a Mac
 
+nnoremap <Leader>cpa /Phone number: \zs.*<CR>vg_"ay
+nnoremap <Leader>ppa /Phone number: \zs<CR>"ap
+
+nnoremap <Leader>cprob /Problem statement: \zs<CR>vg_"py
+nnoremap <Leader>pprob /Problem statement: \zs<CR>"ppy
+
+
 map <D-n> :set number!<CR>
 map <D-'> :set relativenumber!<CR>
 map <D-;> :set list!<CR>
